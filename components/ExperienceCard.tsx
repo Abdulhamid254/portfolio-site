@@ -29,18 +29,38 @@ export default function ExperienceCard({}: Props) {
                 <div className="flex space-x-2 my-2">
                     <img
                      className="h-10 w-10 rounded-full"
-                     src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
+                     src="/angular.png"
                      alt=""/>
 
                 <img
                      className="h-10 w-10 rounded-full"
-                     src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
+                     src="/graphql.png"
                      alt=""/>
 
                 <img
                      className="h-10 w-10 rounded-full"
-                     src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
-                     alt=""/>    
+                     src="/mysql.png"
+                     alt=""/>
+
+                <img
+                     className="h-10 w-10 rounded-full"
+                     src="nextjs.png"
+                     alt=""/>  
+
+                <img
+                     className="h-10 w-10 rounded-full"
+                     src="/postgres.png"
+                     alt=""/>  
+{/* 
+                <img
+                     className="h-10 w-10 rounded-full"
+                     src="/springboot.png"
+                     alt=""/> */}
+
+                {/* <img
+                     className="h-10 w-10 rounded-full"
+                     src="/nestjsz.png"
+                     alt=""/>  */}
                 </div>
            <p className="uppercase py-5 text-gray-300">
             Started work.7th MARCH 2022 - Ended.17th NOV 2022
