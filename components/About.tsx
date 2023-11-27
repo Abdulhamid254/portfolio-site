@@ -41,7 +41,7 @@ export default function About ({}: Props) {
                 {" "} background
             </h4>
             <p className='text-base'>
-              Hi there,my name is Abdul Medi(yes, like late Koffi Annan the mediator) Nassur.I am aSoftware Engineer previous worked at Eclectics International as Fullstack developer.Majorly in Angular and Nextjs on the frontend.
+              Hi there,my name is Abdulhamid Medi(yes, like late Koffi Annan the mediator) Nassur.I am aSoftware Engineer previous worked at Eclectics International as Fullstack developer.Majorly in Angular and Nextjs on the frontend.
               Then on the Backend Nestjs and Java Springboot.I graduated from Multimedia University with a Bachelors degree in Information Technology.
 
               I am an intentive mid-level fullstack developer(leveraging on Angular/Nextjs and SpringBoot) who creates great web applications designs.
