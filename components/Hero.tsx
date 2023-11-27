@@ -23,7 +23,7 @@ export default function Hero({}: Props) {
     <>
     <div
       style={{
-        backgroundImage: 'url("/binary.gif")',
+        backgroundImage: 'url("https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0ODY0MjkwNg&ixlib=rb-1.2.1&q=85")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         width: '100%',
@@ -42,7 +42,7 @@ export default function Hero({}: Props) {
       />
       
       <div>
-        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
+        <h2 className="text-sm uppercase text-white pb-2 tracking-[15px]">
              Software Engineer</h2>
         <h1 className="text-5xl lg:text-6xl font-semibold px-18">
            <span className="mr-3">{text}</span>
