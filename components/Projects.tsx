@@ -71,7 +71,7 @@ function Projects({}: Props) {
               </h4>
               
               <p className="text-lg text-center md:text-left">
-
+              {project.paragraph}
               </p>
             </div>
           </div>

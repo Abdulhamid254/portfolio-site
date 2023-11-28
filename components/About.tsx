@@ -48,12 +48,11 @@ export default function About ({}: Props) {
               I'm also known for architecting customer-facing prducts that deliver unique experiences while complying with internal coding standards and technical requirements.
             </p>
 
-            <div className='flex items-center space-x-4'>
+          <div className='flex items-center space-x-4'>
             <SocialIcon url="https://github.com/Abdulhamid254" />
             <SocialIcon  url="https://www.linkedin.com/in/abdulhamid-nassur-350198134/"  />
             <SocialIcon network="twitter" bgColor="#3a3939" />
-
-            </div>
+          </div>
 
           </div>
     </motion.div>
