@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client'
 
 import  { Cursor, useTypewriter } from "react-simple-typewriter"
@@ -34,12 +35,10 @@ export default function Hero({}: Props) {
     >
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
         <BackgroundCircle />
-        <Image
-        src="/profilepic.jpg" 
+        <img
+        src='/abdulpic.jpg'
         alt=""
-        className="h-32 w-32 rounded-full relative mx-auto object-cover"
-        width={60}
-        height={60}
+        className="h-40 w-40 rounded-full relative mx-auto object-cover"
       />
       
       <div>

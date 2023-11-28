@@ -1,4 +1,5 @@
 import About from '@/components/About'
+import ContactMe from '@/components/ContactMe'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Projects from '@/components/Projects'
@@ -10,7 +11,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     // <main className="flex min-h-screen flex-col  justify-between p-5">
-      <div className='bg-[rgba(36,36,36)] text-white min-h-screen snap-y snap-mandatory overflow-scroll z-0'>
+      <div className='bg-[rgba(36,36,36)] text-white min-h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
        {/* Header */}
        <Header/>
        
@@ -35,7 +36,10 @@ export default function Home() {
         <section id='projects' className='snap-start'>
           <Projects/>
         </section>
-        {/* contact me */}
+        
+        <section id='contact' className='snap-start'>
+          <ContactMe />
+        </section>
       </div>
     // </main>
   )
