@@ -9,28 +9,29 @@ type Props = {};
 function Projects({}: Props) {
   const projects = [
     {
-      id: 1,
+   
       img: "/capture 1.png",
-      title: "Agrimarketplace solution",
-      paragraph: "Description for the Weather App project.",
+      title: "Agri-Marketplace",
+      description: "Developed an  Agri-marketplace solution for latia kenya.Platform where agri-buisness can access services under one roof. The website was in-charge of ensuring farmers access markets, farm products, technology, financial services and workforce solutions.",
+       
     },
     {
-      id: 2,
+      
       img: "/kcb.png",
       title: "KCB FieldAgent Portal",
-      paragraph: "Description for the KCB FieldAgent Portal project.",
+      description: "Played a pivitol role in development of KCB field agent portal.Web-application that keeps tabs of field agents on the field based on their geo-location(Counties/Constituencies/Wards).Also keeps tracks of the onboarded agency-banking users under regional field-agents.",
     },
     {
-      id: 2,
+    
       img: "/kcb.png",
       title: "Weather Forecast",
-      paragraph: "A simple Weather Forecast app built using Nextjs,Tremor,Graphql,stepzen, Tailwind CSS, OpenWeather API & HERE Geocoding API. The project is currently Open-Sourced, ready for use for the community.",
+      description: "A simple Weather Forecast app built using Nextjs,Tremor,Graphql,ApolloClient,stepzen, Tailwind CSS, OpenWeather API & HERE Geocoding API. The project is currently Open-Sourced, ready for use for the community.",
     },
     {
-      id: 2,
+   
       img: "/kcb.png",
       title: "AirBnb web application",
-      paragraph: "An Airbnb web application built for tracking customers’ enquiries and bookings for Holidays utilizing Nextjs, TypeScript and tailwind css",
+      description: "An Airbnb web application built for tracking customers’ enquiries and bookings for Holidays.Keeps record for the overall time of the stay as well as the number  of guests.Utilizing Nextjs, TypeScript and tailwind css.",
     },
     // Add more projects as needed
   ];
@@ -46,11 +47,11 @@ function Projects({}: Props) {
         Projects
       </h3>
 
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
+      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
         {projects.map((project, i) => (
           <div
             key={i}
-            className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-35 h-screen"
+            className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen"
           >
             <motion.img
             initial={{ 
@@ -61,6 +62,7 @@ function Projects({}: Props) {
             whileInView={{ opacity:1, y:0 }}
             viewport={{ once: true }}
              src={project.img} alt="" width={150} height={100} />
+             {/* <Image  src={project.img} alt="" width={150} height={100} /> */}
 
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="text-4xl font-semibold text-center">
@@ -70,13 +72,14 @@ function Projects({}: Props) {
                 {project.title}
               </h4>
               
-              <p className="text-lg text-center md:text-left">
-              {project.paragraph}
+              <p className="text-2xl text-center text-gray-500 md:text-left">
+                  {project.description}
               </p>
             </div>
           </div>
         ))}
       </div>
+      <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12"/>
     </motion.div>
   );
 }

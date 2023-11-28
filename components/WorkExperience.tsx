@@ -16,7 +16,7 @@ type Props = {};
 
 const workExperiences: WorkExperience[] = [
   {
-    title: "Fullstack Developer",
+    title: "Frontend Developer",
     company: "Eclectics International Limited",
     startDate: "7th MARCH 2022",
     endDate: "17th NOV 2022",
