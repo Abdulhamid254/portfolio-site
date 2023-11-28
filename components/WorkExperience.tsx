@@ -34,7 +34,8 @@ const workExperiences: WorkExperience[] = [
     endDate: "8th NOV 2019",
     achievements: [
       "Developing functional specifications and system design specification for web systems.",
-      "Actual system Implementation through coding and functional creation."
+      "Actual system Implementation through coding and functional creation.",
+      "Actual system Implementation through coding and functional creation",
   
     ],
     logos: ["/css.png", "/html.png", "/js.png", "/git.png"],
@@ -54,7 +55,7 @@ export default function WorkExperience({}: Props) {
         Experience
       </h3>
 
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
+      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
         {workExperiences.map((experience, index) => (
           <ExperienceCard
             key={index}

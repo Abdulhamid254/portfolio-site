@@ -11,6 +11,7 @@ const imageArray = [
     '/nextjs.png',
     '/react.png',
     '/graphql.png',
+    '/go.png',
     '/nestjsz.png',
     // '/html.png',
     // '/css.png',
