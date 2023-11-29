@@ -23,13 +23,13 @@ function Projects({}: Props) {
     },
     {
     
-      img: "/kcb.png",
+      img: "/weather.png",
       title: "Weather Forecast",
       description: "A simple Weather Forecast app built using Nextjs,Tremor,Graphql,ApolloClient,stepzen, Tailwind CSS, OpenWeather API & HERE Geocoding API. The project is currently Open-Sourced, ready for use for the community.",
     },
     {
    
-      img: "/kcb.png",
+      img: "/airbnb.png",
       title: "AirBnb web application",
       description: "An Airbnb web application built for tracking customers’ enquiries and bookings for Holidays.Keeps record for the overall time of the stay as well as the number  of guests.Utilizing Nextjs, TypeScript and tailwind css.",
     },
@@ -61,7 +61,7 @@ function Projects({}: Props) {
             transition={{ duration: 1.2 }}
             whileInView={{ opacity:1, y:0 }}
             viewport={{ once: true }}
-             src={project.img} alt="" width={150} height={100} />
+             src={project.img} alt="" width={500} height={70} />
              {/* <Image  src={project.img} alt="" width={150} height={100} /> */}
 
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">

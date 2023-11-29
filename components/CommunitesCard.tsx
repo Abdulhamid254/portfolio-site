@@ -37,8 +37,8 @@ export default function CommunitesCard({
 
       <div className="px-0 md:px-5">
         <h4 className="text-3xl font-bold text-gray-500">{heading}</h4>
-        <p className="font-bold text-2xl mt-3">{title}</p>
-        <p className="text-2xl mt-3">{paragraph}</p>
+        <p className="font-bold text-2xl mt-2">{title}</p>
+        <p className="text-2xl mt-2">{paragraph}</p>
       </div>
 
       <div className='flex items-center space-x-4'>
