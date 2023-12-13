@@ -16,30 +16,42 @@ type Props = {};
 
 const workExperiences: WorkExperience[] = [
   {
-    title: "Frontend Developer",
-    company: "Eclectics International Limited",
-    startDate: "7th MARCH 2022",
-    endDate: "17th NOV 2022",
+    title: "Fullstack Developer",
+    company: "Cana Hospital Limited",
+    startDate: "28th FEB 2022",
+    endDate: "-",
     achievements: [
-      "Reduced the number of reported bugs from 2.1 to 1.0 (per account per month)",
+      "Revised,Modular & updated old code bases to modern development Standards, reducing 40% operating costs",
       "Increased the code coverage with tests from 35% to 50%",
       "Increased the Sprint team velocity from 40 to 60. This positively impacted the team's backlog tasks and reduced burnouts",
     ],
-    logos: ["/angular.png", "/graphql.png", "/mysql.png", "/nextjs.png", "/postgres.png", "/nestjsz.png","/springboot.png"],
+    logos: ["/graphql.png", "/mysql.png", "/nextjs.png", "/postgres.png","/springboot.png"],
   },
   {
-    title: "Frontend Software Developer - Attachee",
-    company: "Another Company",
-    startDate: "1st APRIL 2019",
-    endDate: "8th NOV 2019",
+    title: "Frontend Developer",
+    company: "Eclectics International Limited",
+    startDate: "31ST JAN 2022",
+    endDate: "17th NOV 2022",
     achievements: [
-      "Developing functional specifications and system design specification for web systems.",
-      "Actual system Implementation through coding and functional creation.",
-      "Actual system Implementation through coding and functional creation",
-  
+      "Reduced the number of reported bugs from 2.1 to 1.0 (per account per month)",
+      "Delivered Bulk Payout service to production with live customer service",
+      "Reduced  customer onboarding time from an average of 2 sprints.i.e  from 4weeks to 1 sprint",
     ],
-    logos: ["/css.png", "/html.png", "/js.png", "/git.png"],
+    logos: ["/angular.png", "/graphql.png", "/mysql.png", "/nextjs.png", "/postgres.png", "/nestjsz.png","/springboot.png"],
   },
+  // {
+  //   title: "Frontend Software Developer - Attachee",
+  //   company: "Another Company",
+  //   startDate: "1st APRIL 2019",
+  //   endDate: "8th NOV 2019",
+  //   achievements: [
+  //     "Developing functional specifications and system design specification for web systems.",
+  //     "Actual system Implementation through coding and functional creation.",
+  //     "Actual system Implementation through coding and functional creation",
+  
+  //   ],
+  //   logos: ["/css.png", "/html.png", "/js.png", "/git.png"],
+  // },
   // Add more work experiences as needed
 ];
 

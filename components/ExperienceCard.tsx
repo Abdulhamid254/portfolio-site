@@ -24,7 +24,7 @@ export default function ExperienceCard({
 }: ExperienceCardProps) {
   return (
     <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0  w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-6 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
-      <motion.img
+      {/* <motion.img
         initial={{
           y: -100,
           opacity: 0,
@@ -35,7 +35,7 @@ export default function ExperienceCard({
         className="w-30 h-30 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
         src="/west.png" // Assuming logos is an array of image paths
         alt=""
-      />
+      /> */}
 
       <div className="px-0 md:px-10">
         <h4 className="text-4xl font-light">{title}</h4>
